@@ -1,35 +1,170 @@
-html {
-  font-size: 21px;
-}
+ /* ALL ABOUT FONTS */
 
-body {
-  background-color: bisque;
-}
+ html {
+   font-size: 1.3rem;
+   font-family: courier;
+ }
 
-.logocaption {
-  font-size: 13px;
-}
+ .logocaption {
+   font-size: 0.53rem;
+ }
 
-.about {
-  font-size: 19px;
-}
+ .about {
+   font-size: 1rem;
+ }
 
-.home {
-  font-size: 19px;
-}
+ .home {
+   font-size: 1rem;
+ }
 
-.juls1 {
-  float: left;
-  margin-top: 2px;
-  margin-right: 10px;
-}
+ .back2home {
+   font-size: 1rem;
+ }
 
-table,
-tr,
-td,
-caption {
-  border: 1px solid black;
-  font-family: 'Courier New', Courier, monospace;
-  border-collapse: collapse;
-  padding: 0.5rem;
-}
+ #about_me_button {
+   font-family: courier;
+ }
+
+ .of_course {
+   font-size: 0.7rem;
+ }
+
+ table,
+ tr,
+ td,
+ caption {
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ /* MAIN BACKGROUND STYLE */
+
+ body {
+   background: repeating-linear-gradient(120deg, rgb(34, 6, 31), rgb(44, 43, 43), rgb(43, 32, 43));
+   margin: 40px;
+
+ }
+
+ /* HOME PAGE */
+
+ #body {
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.829);
+   margin: 80px;
+   padding: 20px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ #footer {
+   text-align: left;
+   background-color: rgb(228, 228, 228);
+   margin: 80px;
+   padding-left: 60px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ #links1 {
+   margin-top: 10px;
+ }
+
+ .juls1 {
+   float: left;
+   margin-top: 2px;
+   margin-right: 10px;
+ }
+
+ hr {
+   border-color: rgb(119, 56, 8);
+   border-width: 3px;
+ }
+
+ .intro {
+   margin-left: 65px;
+   margin-right: 65px;
+   font-size: 25px;
+ }
+
+ #agenda1 {
+   text-align: left;
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+
+ #checklist {
+   text-align: justify;
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+
+ #checklisthtml {
+   text-align: justify;
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+
+ #checklistcss {
+   text-align: justify;
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+
+
+ /* ABOUT ME PAGE */
+
+ #body_aboutme {
+   background-color: rgb(228, 228, 228);
+   margin: 80px;
+   margin-bottom: 10px;
+   padding: 20px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ table,
+ tr,
+ td,
+ caption {
+   border: 1px solid black;
+   font-family: 'Courier New', Courier, monospace;
+   border-collapse: collapse;
+   padding: 0.5rem;
+ }
+
+ .contents {
+   text-align: left;
+   padding-left: 30%;
+   padding-right: 50%;
+   margin-bottom: 50px;
+   margin-top: 50px;
+ }
+
+ /* Link colors */
+
+ #back2home {
+   color: rgb(176, 169, 176);
+ }
+
+ #back2home:hover {
+   color: rgb(100, 14, 98);
+ }
+
+ a {
+   color: black;
+ }
+
+ a:hover {
+   color: rgb(100, 14, 98);
+ }
+
+ a:visited {
+   color: black;
+ }
+
+ .logocaption a {
+   color: black;
+ }
+
+ .logocaption a:hover {
+   color: rgb(100, 14, 98);
+ }
