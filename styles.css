@@ -55,6 +55,12 @@
    padding-bottom: 40px;
  }
 
+#cheeselogo {
+  max-width: "1990px";
+  width: "100%";
+  height: "auto";
+  min-width: "500px";
+}
  #footer {
    text-align: left;
    background-color: rgb(228, 228, 228);
