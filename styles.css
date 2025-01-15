@@ -56,9 +56,9 @@
  }
 
 #cheeselogo {
-  width: "990px";
-  height: "auto";
-  min-width: "500px";
+  width: 990px;
+  height: auto;
+  min-width: 500px;
 }
  #footer {
    text-align: left;
