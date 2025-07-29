@@ -1,7 +1,7 @@
  /* ALL ABOUT FONTS */
 
  html {
-   font-size: 1.3rem;
+   font-size: 18px;
    font-family: courier;
  }
 
@@ -40,7 +40,7 @@
 
  body {
    background: repeating-linear-gradient(120deg, rgb(34, 6, 31), rgb(44, 43, 43), rgb(43, 32, 43));
-   margin: 40px;
+   margin: 20px;
 
  }
 
@@ -140,12 +140,25 @@
    padding: 0.5rem;
  }
 
- .contents {
-   text-align: left;
-   padding-left: 30%;
-   padding-right: 50%;
+
+#nav{
+    overflow: hidden;
+    background-color: red;
+    margin: 0px;
+    padding: 10px;
+}
+
+#nav .about-me{
+   float: right;
+}
+
+.content-links{
+   color: white;
+   display: inline;
+   padding: 30px;
    margin-bottom: 50px;
    margin-top: 50px;
+   font-size: 1.2rem;
  }
 
  /* Link colors */
@@ -168,6 +181,14 @@
 
  a:visited {
    color: black;
+ }
+
+  .content-links:hover {
+   color: rgb(100, 14, 98);
+ }
+
+ .content-links:visited {
+   color: white;
  }
 
  .logocaption a {
